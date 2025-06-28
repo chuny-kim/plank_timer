@@ -1,0 +1,19 @@
+
+name: plank_timer
+description: A simple plank timer app.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vibration: ^1.8.4
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/ding.mp3
